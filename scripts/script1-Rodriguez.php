@@ -7,7 +7,7 @@
  * En este script se usa la etiqueta link y copyright
  * 
  * @author Juan Enrique Rodriguez Pretel
- * @version 1.0.0
+ * @version 1.0.1
  */
 
 
@@ -18,7 +18,7 @@
  * @param type $reserva array con los datos user_id, zona_id,fecha, inicio y fin
  * @return int valor numérico que indica el estado final de la operación
  * @copyright Juan Enrique Rodriguez Pretel
- * @version 1.0.0
+ * @version 1.0.1
  */
 function crearReserva($reserva){
    
@@ -136,7 +136,7 @@ function crearReserva($reserva){
  * @param type $idreserva idreservas array de datos que contiene zona, fecha y hora de inicio a buscar
  * @return int valor numérico que indica el estado final de la operación
  * @link http://localhost Puesto solo para el ejercicio
- * @version 1.0.0
+ * @version 1.0.1
  */
 function eliminarReserva($idreserva){
     

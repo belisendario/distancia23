@@ -6,7 +6,7 @@
  * En este script se usa la etiqueta throws y since
  * 
  * @author Juan Enrique Rodriguez Pretel
- * @version 1.0.0
+ * @version 1.0.1
  */
 
 
@@ -61,7 +61,7 @@ class Peticion {
      * 
      * @return string Ruta de la URL
      * 
-     * @version 1.0.0
+     * @version 1.0.1
      */
     public function getPath(string $rootPath = '')
     {
@@ -83,7 +83,7 @@ class Peticion {
     /**
      * Retorna true si el método es GET.
      * @return boolean true si el método es GET, false en caso contrario.
-     * @version 1.0.0
+     * @version 1.0.1
      */
     public function isGet()
     {
@@ -93,7 +93,7 @@ class Peticion {
     /**
      * Retorna true si el método es POST.
      * @return boolean true si el método es POST, false en caso contrario.
-     * @version 1.0.0
+     * @version 1.0.1
      */
     public function isPost()
     {
@@ -109,7 +109,7 @@ class Peticion {
      * 
      * @param mixed $... todos los parámetros a verificar (admite multiples argumentos).
      * @return true si existen todos los parámetros y false en caso contrario.
-     * @version 1.0.0
+     * @version 1.0.1
      */
     public function has ()
     {        
@@ -133,7 +133,7 @@ class Peticion {
      * @return type int
      * @throws Exception Se lanza excepción si no existe el parámetro o si
      * el parámetro no es un entero.
-     * @version 1.0.0
+     * @version 1.0.1
      */
     public function getInt($paramName) {
         
@@ -160,7 +160,7 @@ class Peticion {
      * @return type double
      * @throws Exception Se lanza excepción si no existe el parámetro o si
      * el parámetro no es un número.
-     * @version 1.0.0
+     * @version 1.0.1
      */
     public function getDouble($paramName, $locale='es_ES'){
         setlocale(LC_NUMERIC, $locale);
